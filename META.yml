@@ -1,0 +1,27 @@
+--- #YAML:1.0
+name:               Triggermail
+version:            1.00
+abstract:           Perl module for accessing SailThru's platform
+author:
+    - Sam Gerstenzang <sgerstenzang@stanford.edu>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Digest::MD5:       0
+    HTTP::Request:     0
+    JSON::XS:          0
+    LWP:               0
+    Params::Validate:  0
+    URI::Escape:       0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.55_02
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

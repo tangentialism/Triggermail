@@ -1,0 +1,11 @@
+Revision history for Perl extension Triggermail.
+
+1.00 Fri Mar  4 15:57:26 2011
+	-Patch added by David Yee from 20x200. Now supports schedule_time in send method.
+
+0.02 Fri Jul  9 15:57:26 2010
+	-made checking more lenient, added copyTemplate
+
+0.01  Thu Jul  1 11:57:26 2010
+	- original version; created by h2xs 1.23 with options
+		-XA -n Sailthru
